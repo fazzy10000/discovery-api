@@ -6,7 +6,7 @@ env:
   API_HOST: apps.e2etest-sanity-ocp.cp.fyre.ibm.com
   PROVIDER_ORG: api-test
   API_FOLDERS: APIfolder
-  PLATFORM_API_PREFIX: production-mgmt-platform-api
+  PLATFORM_API_PREFIX: production-mgmt-platform-api-apic
 
 jobs:
   run-discovery:
