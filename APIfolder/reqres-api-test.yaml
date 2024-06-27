@@ -97,19 +97,6 @@ paths:
             type: string
       consumes: []
       produces: []
-    delete:
-      responses:
-        '204':
-          description: success
-          schema:
-            type: string
-      consumes: []
-      produces: []
-    parameters:
-      - name: +pathparam
-        in: path
-        required: true
-        type: string
 schemes:
   - https
 
